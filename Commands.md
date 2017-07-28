@@ -115,7 +115,7 @@ Search through `amount` of messages and remove any sent by the bot.  If the bot 
 ---
 
 ### `!blacklist <status> <@user1>...`
-Add or remove users from the bot blacklist.  Blacklisted users cannot use any bot commands.  This overrides any permissions settings set in `permissions.ini`.  The owner cannot be blacklisted.  Multiple users can be specified in the command.
+Add or remove users from the bot blacklist.  Blacklisted users cannot use any bot commands.  The owner cannot be blacklisted.  Multiple users can be specified in the command.
 
 **Note:** Remember to @mention the user when using this command.
 
