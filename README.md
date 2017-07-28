@@ -32,7 +32,7 @@ Prints a basic list of commands, or info on a command if `[command]` is specifie
 Add a song to the queue, or add the first youtube result for the provided search text.
 
 ##### Arguments:
-- `<song link>` A link to some song.  **Links are not limited to youtube**, see [this FAQ entry](https://github.com/Just-Some-Bots/MusicBot/wiki/FAQ#is-some-other-website-or-service-supported).
+- `<song link>` A link to some song.
   - Example: `!play https://www.youtube.com/watch?v=gbv-yqqmLH0`
 - *or...*
 - `<song text to search for>` Some search query you want the bot to look up on youtube.
@@ -143,15 +143,6 @@ DMs the user their permissions on the server.  Helpful for figuring out what the
 
 ---
 
-### `!joinserver <server invite link>`
-Asks the bot to join a server.  This is the one command that can be invoked by DMing the bot.
-
-**Note:** Only the owner can use this command, and cannot be changed through permissions.  Additionally, bot accounts cannot join servers through invite links and must instead join through OAuth.
-
-##### Arguments:
-- `<server invite link>` An invite link for a server, usually looks something like `http://discord.gg/somerandomtexthere`.
-
----
 
 ### `!pldump <playlist>`
 Collects URLs from a YouTube playlist or Soundcloud set and dumps them into a text file to allow use in an autoplaylist.
